@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7b116caa-4cf1-48bc-ba26-30022ee528ff" name="默认的" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/apache-maven-3.5.4-bin/apache-maven-3.5.4" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.5.4-bin\apache-maven-3.5.4\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1YZTtEzF9ZGyqZGSTobSlr5yr2c" />
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\HTML练习\3.2\.idea\品优购项目\images\register" />
+      <recent name="D:\HTML练习\3.2\.idea\品优购项目\images\detail" />
+      <recent name="D:\HTML练习\3.2\.idea\品优购项目\images\index" />
+      <recent name="D:\HTML练习\3.2\.idea\品优购项目\images" />
+      <recent name="D:\HTML练习\3.2\.idea\品优购项目" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\HTML练习\3.2\.idea\品优购项目\images\detail" />
+      <recent name="D:\HTML练习\3.2\.idea\品优购项目\fonts" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7b116caa-4cf1-48bc-ba26-30022ee528ff" name="默认的" comment="" />
+      <created>1583149329969</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583149329969</updated>
+      <workItem from="1583149333848" duration="2014000" />
+      <workItem from="1583220032952" duration="6819000" />
+      <workItem from="1583240678189" duration="2852000" />
+      <workItem from="1583375556562" duration="2226000" />
+      <workItem from="1583394805359" duration="4059000" />
+      <workItem from="1583414513371" duration="3667000" />
+      <workItem from="1583499536750" duration="610000" />
+      <workItem from="1583586050981" duration="7377000" />
+      <workItem from="1583646988886" duration="20068000" />
+      <workItem from="1583832789002" duration="12558000" />
+      <workItem from="1584018863483" duration="11800000" />
+      <workItem from="1584090696220" duration="1992000" />
+      <workItem from="1584103186676" duration="8578000" />
+      <workItem from="1584167268819" duration="6091000" />
+      <workItem from="1584196943036" duration="4538000" />
+      <workItem from="1584356283923" duration="6665000" />
+      <workItem from="1584432330594" duration="671000" />
+      <workItem from="1584676900061" duration="5516000" />
+      <workItem from="1584947314194" duration="198000" />
+      <workItem from="1586416996946" duration="2235000" />
+      <workItem from="1587006615916" duration="11649000" />
+      <workItem from="1587109474790" duration="4591000" />
+      <workItem from="1587134636717" duration="1870000" />
+      <workItem from="1587199216783" duration="9103000" />
+      <workItem from="1587276119059" duration="21125000" />
+      <workItem from="1587393336229" duration="3794000" />
+      <workItem from="1589188803621" duration="2000" />
+      <workItem from="1589202755156" duration="84000" />
+      <workItem from="1590843427112" duration="12440000" />
+      <workItem from="1590905010805" duration="26377000" />
+      <workItem from="1590995214185" duration="20803000" />
+      <workItem from="1591082815797" duration="1271000" />
+      <workItem from="1591280872618" duration="6647000" />
+      <workItem from="1591334588492" duration="371000" />
+      <workItem from="1591335325276" duration="22810000" />
+      <workItem from="1591426856102" duration="11159000" />
+      <workItem from="1591856932712" duration="49000" />
+      <workItem from="1591857172046" duration="3000" />
+      <workItem from="1594002804873" duration="373000" />
+      <workItem from="1594032499983" duration="670000" />
+      <workItem from="1594036115543" duration="2570000" />
+      <workItem from="1594613269173" duration="4384000" />
+      <workItem from="1594622070908" duration="313000" />
+      <workItem from="1594652302294" duration="5549000" />
+      <workItem from="1594789943776" duration="7464000" />
+      <workItem from="1594862640954" duration="1219000" />
+      <workItem from="1594864359911" duration="32000" />
+      <workItem from="1594877373233" duration="21000" />
+      <workItem from="1596340376900" duration="623000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>

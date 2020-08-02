@@ -1,0 +1,286 @@
+.main {
+    height: 456px;
+    width: 980px;
+    margin-top: 10px;
+    padding-left: 215px;
+}
+
+.newsflash {
+    height: 456px;
+    width: 252px;
+}
+.focus {
+    position: relative;
+}
+.arrow-l {
+    position: absolute;
+    top:50%;
+    margin-top: -20px;
+    width: 24px;
+    height: 40px;
+    background-color: rgba(0,0,0,0.3);
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    font-size: 17px;
+}
+.arrow-r {
+    position: absolute;
+    top:50%;
+    right: 0;
+    margin-top: -20px;
+    width: 24px;
+    height: 40px;
+    background-color: rgba(0,0,0,0.3);
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    font-size: 17px;
+}
+.focus ol {
+    position: absolute; /*这里的定位只能给ol，不能给li，要是给li就重合了*/
+    bottom: 18px;
+    left: 70px;
+}
+.focus ol li {
+    float: left;
+    height: 9px;
+    width: 9px;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    margin: 0px 5px;
+    cursor: pointer;
+}
+.focus ol li:hover {
+    background-color: #e33333;
+}
+.newsflash .news {
+    height: 165px;
+    border: 1px solid #cccccc;
+    color: #666666;
+}
+.news .top {
+    height: 34px;
+    border-bottom: 1px dotted #cccccc;
+    font-size: 15px;
+    line-height: 34px;
+    padding-left: 15px;
+}
+.news .top .more {
+    font-family: 'icomoon';
+    font-size: 13px;
+    padding-left: 107px;
+}
+.news .bottom {
+    font-size: 13px;
+    padding-left: 13px;
+    padding-top: 13px;
+}
+.news .bottom li {
+    margin-bottom: 5px;
+}
+.newsflash .lifeservice{
+    height: 210px;
+    border-left: 1px solid #cccccc;
+}
+.lifeservice ul {
+    width: 252px;
+}
+.lifeservice li {
+    position: relative;
+    float: left;
+    width: 62px;
+    height: 69px;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+.lifeservice li a{
+    display: block;
+    height: 100%;
+    overflow: hidden;/*这里加了这句，a标签的范围就和li一样了 不知道为什么*/
+}
+.lifeservice i {
+    display: block;
+    height: 25px;
+    width: 21px;
+    margin:10px auto;
+}
+.lifeservice p {
+    font-size: 12px;
+    color: #666666;
+    margin-left:20px;
+}
+.lifeservice .huafei {
+    background: url("../images/icons.png") no-repeat -17px -16px;
+}
+.jipiao {
+    background: url("../images/icons.png") no-repeat -81px -16px;
+}
+.lifeservice .jian {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 12px;
+    height: 15px;
+    background: url("../images/jian.png") no-repeat ;
+    z-index: 3;
+}
+.bargin img {
+    padding-top: 2px;
+    width: 252px;
+}
+.recommend {
+    height: 162px;
+    width: 1200px;
+}
+.re_h {
+    margin-top: 10px;
+    width: 200px;
+    height: 162px;
+    background-color: #5c5251;
+}
+.re_h img {
+    margin: auto 71px;
+    margin-top: 41px;
+}
+.re_h p {
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+    margin-top: 10px;
+}
+.re_b {
+    margin-top: 10px;
+    width: 1000px;
+    height: 162px;
+    overflow: hidden;
+    background-color: #ebebeb;
+}
+.re_b ul {
+    width: 1005px; /*子盒子的宽度可以比父盒子高，所以下面的li即使超出了长度，也可以放下*/
+}
+.re_b li {
+    display: inline-block;
+    float: left;
+    width: 250px;
+    height: 142px;
+    margin-top:10px;
+    border-right: 1px solid #cccccc;
+}
+.re_b img {
+    width: 250px;
+    height: 142px;
+}
+.floor {
+}
+.jiadian {
+    height: 390px;
+    width: 1200px;
+    margin-top: 30px;
+}
+.jiadian .box_hd {
+    height: 26px;
+    width: 1200px;
+    border-bottom: 2px solid #c81623;
+}
+.box_hd h3 {
+    float: left;
+    font-size: 18px;
+    color:#c81623 ;
+}
+.box_hd .right {
+    float: right;
+    font-size: 13px;
+    color:#666666 ;
+}
+.right a {
+    margin: 0 15px;
+}
+.right li {
+    display: inline-block;
+    line-height: 26px;
+    text-align: center;
+}
+.right .red {
+    color: #c81623;
+}
+.box_bd {
+    height: 360px;
+}
+.box_bd img {
+    transition: all 0.5s;
+}
+.box_bd img:hover {
+    margin-left: 8px;
+}
+.box_bd li {
+    display: inline-block;
+    float: left;
+    overflow: hidden;  /*加了动画之后，图片会把border右边框遮掉，这时用到overflow*/
+}
+.box_bd .one {
+     width: 210px;
+     height: 360px;
+ }
+.one .top {
+    width: 210px;
+    height: 100px;
+}
+.top li {
+    width: 86px;
+    height: 32px;
+    border-bottom: 1px solid #cccccc;
+    margin-left: 12px;
+    line-height: 32px;
+    text-align: center;
+    font-size: 11px;
+}
+.one .pic {
+    border-bottom: 1px solid #cccccc;
+}
+.one .pic img {
+    height: 262px;
+}
+.box_bd .two img {
+    width: 330px;
+    height: 362px;
+}
+.box_bd .three {
+    width: 219px;
+    height: 360px;
+    border-right: 1px solid #cccccc;
+}
+ .tone , .ttwo {
+    width: 219px;
+    height: 180px;
+    border-bottom: 1px solid #cccccc;
+}
+.box_bd .four {
+    width: 221px;
+    height: 361px;
+    border-right: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+}
+.box_bd .five {
+    width: 218px;
+    height: 360px;
+}
+.fixedtool {
+    position: fixed; /*固定定位*/
+    top: 50%;
+    left: 50%;
+    margin-left: -676px;
+    width: 66px;
+}
+.fixedtool li {
+    height: 32px;
+    font-size: 13px;
+    color:#666666 ;
+    line-height:32px;
+    text-align: center;
+
+}
+.fixedtool li a {
+    padding-bottom: 5px;
+    border-bottom: 1px solid #cccccc;
+}

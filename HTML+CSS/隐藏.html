@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+        .pic {
+            position: relative;
+            width: 520px;
+            height: 280px;
+            margin: 50px auto;
+        }
+
+        .pic a:hover .out {
+            display: block;
+        }
+
+        .out {
+            display: none;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            width: 520px;
+            height: 280px;
+            background-color: rgba(0, 0, 0, 0.3);
+        }
+
+    </style>
+</head>
+<body>
+<div class="pic">
+    <a href="#">
+        <img src="images/1.jpg">
+        <div class="out"></div>
+    </a>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>轮播图</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        .box{
+            position: relative;
+            height: 280px;
+            width: 520px;
+            margin: 100px auto;
+        }
+        .left{
+            position: absolute;
+            top:50%;
+            left: 0px;
+            width: 30px;
+            height: 30px;
+            text-align: center;
+            line-height: 30px;
+            margin-top: -15px;
+            background-color:  rgba(0,0,0,0.2);
+            border-radius: 0 15px 15px 0;
+            color: orange;
+        }
+        .right{
+            position: absolute;
+            top:50%;
+            right: 0px;
+            width: 30px;
+            height: 30px;
+            margin-top: -15px;
+            text-align: center;
+            line-height: 30px;
+            background-color: rgba(0,0,0,0.2);
+            border-radius: 15px 0 0 15px ;
+            color:  orange;
+        }
+        .left:hover ,
+        .right:hover {
+            background-color: rgba(0,0,0,0.5);
+        }
+        .bottom {
+            position: absolute;
+            width: 120px;
+            height: 30px;
+            bottom: 15px;
+            left :50%;
+            margin-left: -60px;
+            background-color: rgba(255,255,255,0.8);
+            border-radius: 15px 15px 15px 15px;
+        }
+        .circle  li {
+            cursor: pointer;
+            display: inline-block;
+            width: 12px;
+            height: 12px;
+            background-color: orange;
+            border-radius: 6px;
+            margin: 8px 12px;
+        }
+        .circle .one {
+            background-color: pink;
+        }
+
+    </style>
+</head>
+<body>
+        <div class="box">
+            <img src="images/1.jpg">
+            <div class="left">&lt;</div>
+            <div class="right">&gt;</div>
+            <div class="bottom">
+                <ul class="circle">
+                    <li class="one"></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+        </div>
+
+
+</body>
+</html>

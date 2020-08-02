@@ -1,0 +1,350 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #f3f5f7;
+}
+li{
+    list-style: none;
+}
+.w{  /*只要是在版心的 都要在类里加这个*/
+    width: 1200px;
+    margin: 0px auto;
+}
+.header{
+    height: 42px;
+    margin: 30px auto;
+}
+.logo , .nav , .person , .search{
+        float: left;
+    }
+.logo{
+    margin-right: 40px;
+}
+.nav ul li{
+    display: inline-block;
+}
+/* a 是块级元素 高度宽度可控 li是行内块 又要一行显示 又要可控高宽
+   42px = 40 height + 2 border */
+.nav ul li a{
+    display: block;
+    padding: 0px 18px;
+    height: 40px;
+    color: #050505;
+    font-size: 18px;
+    line-height: 40px;
+    text-decoration: none;
+    margin-right: 18px;
+}
+.nav ul li a:hover{
+    border-bottom: 2px solid dodgerblue;
+}
+.search input{
+    float: left;
+    width: 180px;
+    height: 40px;
+    margin-left: 20px;
+    padding-left: 10px;
+    border: 1px solid dodgerblue;
+    color: #ccc;
+}
+/*图片适当的repeat可以去除间隙   去除button自带的立体感用border none*/
+.search button{
+    float: left;
+    width: 50px;
+    height: 42px;
+    background: url(../images/fa-search.png)  repeat;
+    border: none;
+}
+.person {
+    margin-left: 65px;
+}
+.person .pc  {
+    float: left;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 42px;
+    margin-left: 25px;
+}
+.person .pic1 {
+    float: left;
+    vertical-align: middle;
+    vertical-align: 50%;
+    margin-left: 25px;
+}
+.person .name {
+    float: right;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 42px;
+    margin-left: 25px;
+}
+.banner{
+    height: 420px;
+    width: 100%;
+    background: #1c036c url(../images/banner.jpg) no-repeat top center;/*这里可以用综合写法 background：颜色 图片 平铺 滚动 位置*/
+}
+.banner .left{
+    float: left;
+    width: 190px;
+    height: 420px;
+    margin-left: 200px;
+    background-color: rgba(0,0,0,0.3);
+}
+.banner .left ul li{
+    padding-left: 25px;
+    height: 47px;
+}
+.banner .left ul li a{
+    display: block;
+     color: white;
+     font-size: 15px;
+     text-decoration: none;
+    line-height: 47px;
+    font-family: 微软雅黑;
+ }
+.banner .left ul li a:hover{
+    color: dodgerblue;
+}
+.banner .left ul li a span{
+    float: right;
+    padding-right: 20px;
+}
+.banner .right{
+    float: right;
+    width: 228px;
+    height: 300px;
+    background-color: white;
+    margin-right: 200px;
+    margin-top: 50px;
+}
+.right .right_hd{
+    height: 50px;
+    background-color: #9bceea;
+    font:bold 18px 微软雅黑;/*font的综合描述要写在行高的前面！ 不然行高没反应*/
+    line-height: 50px;
+    text-align: center;
+    color: white;
+}
+.right .right_bd{
+    padding: 0px 20px;/*没有宽度的盒子 即使有padding也不会撑开盒子*/
+}
+.right_bd ul li h4,h5{
+    font-weight: 300;
+    display: inline;
+}
+.right_bd ul li h5{
+     margin-left: 20px;
+ }
+.right_bd ul li p{
+    font-size: 13px;
+    color: gray;
+    margin-top: 5px;
+}
+.right_bd ul li {
+    margin-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid gray;
+}
+.right_bd span a{
+    display: block;
+    width: 180px;
+    height: 40px;
+    border: 1px solid dodgerblue;
+    text-decoration: none;
+    color: dodgerblue;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 40px;
+    text-align: center;
+    margin-top: 5px;
+}
+.right_bd span a:hover{
+    background-color: dodgerblue;
+    color: white;
+}
+.good{
+    height: 50px;
+    background-color: white;
+    margin-top: 10px;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.3);
+}
+.recommand{
+    float: left;
+}
+.recommand ul li{
+    display: inline-block;
+}
+.recommand ul li a{
+    font-size: 16px;
+    border-left: 1px solid gray;
+    text-decoration: none;
+    color: black;
+    padding-left: 30px ;
+    padding-right: 30px ;
+    font-family: 微软雅黑;
+    line-height: 50px;
+    text-align: center;
+}
+.recommand ul li a:hover{
+    color: dodgerblue;
+}
+.recommand  .spe{
+    border: none;
+    color: dodgerblue;
+    font-weight: bold;
+}
+.change{
+    float: right;
+    margin-right: 25px;
+    font-size: 13px;
+    line-height: 50px;/*最好是把行高给父亲 利用继承*/
+    color: cornflowerblue;
+    text-align: center;
+}
+/*这个大盒子不要给高度 上面的头部小盒子可以给 下面不用给 因为不好给 而是靠内容撑开*/
+.class{
+    margin-top: 15px;
+    background-color: white;
+}
+.class .class_hd {
+    height: 60px;
+    line-height: 60px;
+}
+.class .class_hd .left{
+    float: left;
+    padding-left: 30px;
+    font-size: 17px;
+}
+.class .class_hd .right {
+    float: right;
+    padding-right: 60px;
+}
+.class .class_hd .right a {
+    font-size: 15px;
+    text-decoration: none;
+    color: gray;
+}
+/*子盒子的宽度是大于父盒子的 这一行有5个方框 5个边框 若是宽度统一 只能放四个盒子*/
+.class .class_bd {/* bd的高度是0 因为li是浮动的 */
+    width: 1220px;
+}
+.clearfix:before ,/*清除浮动之后 父盒子就有高度了*/
+.clearfix:after {
+    content: "";
+    display : table;
+}
+.clearfix:after {
+    clear :both;
+}
+.clearfix {
+    *zoom: 1;
+}
+.class .class_bd li {
+    position: relative;
+    float: left;/*子盒子给了浮动 但是父盒子没有设置浮动 下次再加盒子会影响布局 会显示在子盒子的下面 所以要清除浮动*/
+    height: 270px;
+    width: 228px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.2);
+}
+.class .class_bd li img {
+    width: 228px;
+}
+ .class_bd li span .hot {
+    position: absolute;
+    right: 0;
+    top :0;
+    width: 50px;
+    height: 20px;
+    background-color: white;
+    color: orange;
+    line-height: 20px;
+    text-align: center;
+    border: 2px solid orange;
+}
+.class .class_bd li p {
+    padding: 15px 15px;
+    font-family: 微软雅黑;
+    font-size: 14px;
+}
+.class .class_bd li h4 {
+    display: inline;
+    padding: 20px 15px;
+    font-family: 微软雅黑;
+    font-size: 13px;
+    color: orange;
+}
+.class .class_bd li h5 {
+    font-family: 微软雅黑;
+    font-size: 13px;
+    color: gray;
+}
+.footer{
+    width: 100%;
+    height: 415px;
+    background-color: white;
+}
+.footer .left {
+    float: left;
+    margin-left: 200px;
+}
+.footer .left img {
+    margin-top: 30px;
+}
+.footer .left p {
+    line-height: 24px;
+    margin-top: 35px;
+    color: #4a4a4a;
+    font-size: 13px;
+    padding-bottom: 30px;
+}
+.footer .left span a{
+    display: block;
+    float: left;
+    height: 40x;
+    width: 120px;
+    line-height: 40px;
+    border: 1px solid dodgerblue;
+    text-align: center;
+    color: dodgerblue;
+    font-size: 15px;
+}
+.footer .right {
+    float: right;
+    margin-top: 30px;
+    margin-right: 130px;
+}
+.footer .right dl {
+    float: left;
+    margin-left: 200px;
+}
+.footer .right dl dt{
+    font-size: 16px;
+    color: #333;
+    height:30px;
+}
+.footer .right dl dd {
+    height: 20px;
+    font-size: 13px;
+    color: gray;
+}
+.leftad {
+    position: fixed;
+    left: 50%;
+    margin-left: -700px;
+    top: 40%;
+    width: 100px;
+    height: 120px;
+    background-color: #9bceea;
+}
+.leftad ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 15px;
+}

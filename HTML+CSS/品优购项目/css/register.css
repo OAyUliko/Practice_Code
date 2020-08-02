@@ -1,0 +1,101 @@
+.header {
+    height: 81px;
+    border-bottom: 2px solid #b1191a;
+}
+
+.header img {
+    margin-top: 12px;
+}
+
+.registerarea {
+    height: 524px;
+    border: 1px solid #dfdfdf;
+    margin-top: 20px;
+}
+
+.registerarea .top {
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid #dfdfdf;
+    background-color: #ececec;
+    font-size: 18px;
+    color: #333333;
+    padding-left: 10px;
+}
+
+.registerarea .top em {
+    float: right;
+    margin-right: 8px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.container {
+    height: 400px;
+    width: 600px;
+    margin: 48px auto;
+}
+
+.container label {
+    display: inline-block;
+    text-align: right;
+    height: 37px;
+    width: 100px;
+    line-height: 37px;
+}
+.container  li {
+   margin-bottom: 20px;
+}
+.container .input {
+    height: 37px;
+    width: 240px;
+    border: 1px solid #dfdfdf;
+    margin-left: 10px;
+}
+
+.container img {
+    height: 20px;
+    width: 20px;
+    margin-left: 10px;
+}
+
+.container span {
+    font-size: 12px;
+    color: #df3033;
+}
+.container .safe {
+    margin-left: 207px;
+    color: #b2b2b2;
+    font-size: 12px;
+}
+.safe em {
+    display: inline-block;
+    height: 13px;
+    width: 30px;
+    background-color: #de1111;
+    color: white;
+    text-align: center;
+    line-height: 13px;
+}
+.safe .two {
+    background-color: #40b83f;
+}
+.safe .three {
+    background-color: #f79100;
+}
+.container .queren {
+    margin-left: 116px;
+    padding-top: 22px;
+}
+.container .register a {
+    display: inline-block;
+    height: 34px;
+    width: 200px;
+    background-color: #c81623;
+    color: white;
+    font-weight: bold;
+    line-height: 34px;
+    text-align: center;
+    margin-left: 130px;
+    margin-top: 30px;
+}
